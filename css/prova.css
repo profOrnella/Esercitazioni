@@ -1,0 +1,36 @@
+
+h1 {
+  border: 1px solid red;
+  width:"auto";
+ color: blue;
+ padding: 5px;
+}
+h2.rosso {
+color: red;
+}
+
+p#importante{
+  background-color: yellow;
+}
+
+.noBordi
+{
+  border: 0px;
+}
+
+
+.sfondoBlu{
+  background-color: blu;
+  color: white;
+}
+.sfondoGiallo{
+  background-color: yellow;
+  color: red;
+}
+table{
+  border: 1px solid red;
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  margin-top:20px;
+}

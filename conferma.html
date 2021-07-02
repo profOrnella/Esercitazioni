@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Conferma</title>
+  <link rel="stylesheet" href="./css/stili.css">
+</head>
+<body>
+
+<header>
+  Esito trasmissione dati
+</header>
+<footer>
+DATI TRASMESSI CON SUCCESSO
+</footer>
+<table>
+  <tr>
+    <td><label for="par1">Nome</label></td>
+    <td><input type="text" name="par1" id="par1" value="" readonly class="readonly"></td>
+  </tr>
+  <tr>
+    <td><label for="par1">Cognome</label></td>
+    <td><input type="text" name="par2" id="par2" value="" readonly class="readonly"></td>
+  </tr>
+  <tr>
+    <td><label for="par1">Città</label></td>
+    <td><input type="text" name="par3" id="par3" value="" readonly class="readonly"></td>
+  </tr>
+  <tr>
+    <td><label for="par1">nazione</label></td>
+    <td>  <input type="text" name="par4" id="par4" value="" readonly class="readonly"></td>
+  </tr>
+
+</table>
+
+  <script language="JavaScript">
+    function readData()
+    {
+      var parameters = location.search.substring(1).split("&");
+      var temp = parameters[0].split("=");
+      val1 = unescape(temp[1]);
+      document.getElementById("par1").value = val1;
+
+      temp = parameters[1].split("=");
+      val2 = unescape(temp[1]);
+      document.getElementById("par2").value = val2;
+
+      temp = parameters[2].split("=");
+      val3 = unescape(temp[1]);
+      document.getElementById("par3").value = val3;
+
+      temp = parameters[3].split("=");
+      val4 = unescape(temp[1]);
+      document.getElementById("par4").value = val4;
+    }
+    readData();
+  </script>
+
+
+</body>
+</html>

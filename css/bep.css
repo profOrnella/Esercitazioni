@@ -1,0 +1,84 @@
+/* Impostazioni generali */
+
+body {
+	font-family: sans-serif;
+	font-size: 10pt;
+	background-color: #807863;
+	text-align: center;
+}
+
+
+
+#corpo {
+			 position: relative;
+			 margin-right: auto;
+			 margin-left: auto;
+			 background-color: #ffffff;
+			 background-image: url(../img/gruppo.jpg);
+			 background-repeat: no-repeat;
+			 background-position: top right;
+			 border: 5px solid #696353;
+			 width: 620px;
+			 padding: 10px;
+			 text-align: left;}
+
+h1 {
+	 color: #696353;
+	 font-size: 16pt;
+}
+
+h2 {
+	 color: #696353;
+	 font-size: 14pt;}
+
+/* Stile tabella */
+th, td {
+			padding: 3px;}
+
+.titoli {
+				width: 300px;
+				font-style: italic;}
+
+.dx {
+		text-align: right;}
+
+.pari {
+			background-color: #C4BDAB;
+			width: 300px;
+		}
+
+.dispari {
+			background-color: #807863;
+		width: 300px;
+	}
+
+
+
+/* Stile form */
+
+#dati, #brani {
+			display: inline-block;
+			width: 263px;
+			float: left;
+			border: 1px solid #807863;
+			padding: 10px;
+			margin: 5px;}
+
+legend {
+			 font-weight: bold;
+			 font-size: 12pt;}
+
+input, select {
+	width: 253px;
+	font: 12 px verdana, arial, helvetica, sans-serif;
+	color: rgb(100,100,100);
+	border: 1px solid #807863;
+	background: #fff;
+	margin-bottom: 5px;}
+
+.bottoni {
+	margin: 10px 0 0 10px;
+	background-color: #807863;
+	color: #000000;
+	padding: 1px 0px 1px 0px;
+	width: 273px;}
