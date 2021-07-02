@@ -19,16 +19,20 @@ DATI TRASMESSI CON SUCCESSO
     <td><input type="text" name="par1" id="par1" value="" readonly class="readonly"></td>
   </tr>
   <tr>
-    <td><label for="par1">Cognome</label></td>
+    <td><label for="par1">Indirizzo</label></td>
     <td><input type="text" name="par2" id="par2" value="" readonly class="readonly"></td>
   </tr>
   <tr>
-    <td><label for="par1">Città</label></td>
+    <td><label for="par1">Cap</label></td>
     <td><input type="text" name="par3" id="par3" value="" readonly class="readonly"></td>
   </tr>
   <tr>
-    <td><label for="par1">nazione</label></td>
+    <td><label for="par1">Città</label></td>
     <td>  <input type="text" name="par4" id="par4" value="" readonly class="readonly"></td>
+  </tr>
+  <tr>
+    <td><label for="par1">Email</label></td>
+    <td>  <input type="text" name="par5" id="par5" value="" readonly class="readonly"></td>
   </tr>
 
 </table>
@@ -52,6 +56,10 @@ DATI TRASMESSI CON SUCCESSO
       temp = parameters[3].split("=");
       val4 = unescape(temp[1]);
       document.getElementById("par4").value = val4;
+
+      temp = parameters[4].split("=");
+      val5 = unescape(temp[1]);
+      document.getElementById("par5").value = val5;
     }
     readData();
   </script>
